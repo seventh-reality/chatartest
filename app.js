@@ -5,7 +5,7 @@ import { VRButton } from 'three/examples/jsm/webxr/VRButton.js';
 
 let camera, scene, renderer, model, mixer, clock;
 let currentModelIndex = 0;
-const models = ['path_to_model1.glb', 'path_to_model2.glb']; // Paths to your models
+const models = ['80d9e4b53b2448a4bb1411a7ff3e63a7.glb', 'path_to_model2.glb']; // Paths to your models
 const hotspots = [];
 
 init();
