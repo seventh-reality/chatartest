@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebXR AR Model Viewer</title>
+    <title>Web AR Viewer</title>
     <style>
         body, html {
             margin: 0;
@@ -11,11 +11,14 @@
             overflow: hidden;
             width: 100%;
             height: 100%;
+            background: black;
         }
         #canvas {
-            display: block;
             width: 100%;
             height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
         }
         .ui-button {
             position: absolute;
@@ -34,8 +37,7 @@
     <canvas id="canvas"></canvas>
     <button id="playAnimation" class="ui-button">Play Animation</button>
     <button id="switchModel" class="ui-button">Switch Model</button>
-
-    
+    <script src="https://code.playcanvas.com/playcanvas-stable.min.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
