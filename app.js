@@ -65,7 +65,7 @@ function loadModel(url) {
         modelEntity.destroy();
     }
 
-    const glbLoader = new pc.AssetRegistry().loadFromUrlAndFilename(url, 'model', 'model');
+    const glbLoader = new pc.AssetRegistry().loadFromUrlAndFilename(GLTFLoader.js, 'model', 'model');
     glbLoader.on('load', function (err, asset) {
         modelEntity = new pc.Entity();
         modelEntity.addComponent('model', {
