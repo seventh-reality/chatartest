@@ -1,106 +1,110 @@
-import * as THREE from 'three';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader.js';
-import { VRButton } from 'three/examples/jsm/webxr/VRButton.js';
+// Initialize PlayCanvas app
+const canvas = document.getElementById('canvas');
+const app = new pc.Application(canvas, {
+    mouse: new pc.Mouse(canvas),
+    touch: new pc.TouchDevice(canvas),
+    elementInput: new pc.ElementInput(canvas),
+    keyboard: new pc.Keyboard(window),
+});
+app.start();
 
-let camera, scene, renderer, model, mixer, clock;
+// Set canvas resolution
+app.setCanvasFillMode(pc.FILLMODE_FILL_WINDOW);
+app.setCanvasResolution(pc.RESOLUTION_AUTO);
+window.addEventListener('resize', () => app.resizeCanvas());
+
+// Set up the scene
+app.scene.ambientLight = new pc.Color(0.5, 0.5, 0.5);
+
+// Create camera entity
+const camera = new pc.Entity();
+camera.addComponent('camera', {
+    clearColor: new pc.Color(0.1, 0.1, 0.1)
+});
+camera.addComponent('script');
+app.root.addChild(camera);
+
+// Enable WebXR AR
+camera.addComponent('xr', { 
+    type: pc.XRTYPE_AR, 
+    spaceType: pc.XRSPACETYPE_LOCAL 
+});
+camera.xr.start(camera);
+
+// Create directional light
+const light = new pc.Entity();
+light.addComponent('light', {
+    type: 'directional',
+    color: new pc.Color(1, 1, 1),
+    intensity: 1.5,
+    castShadows: true
+});
+light.setLocalEulerAngles(45, 30, 0);
+app.root.addChild(light);
+
+// Load HDR environment for reflections
+app.assets.loadFromUrl('path_to_hdr/hdr_file.hdr', 'texture', function (err, asset) {
+    if (!err) {
+        asset.resource.type = pc.TEXTURETYPE_RGBM;
+        app.scene.skyboxMip = 2;
+        app.scene.setSkybox(asset.resource);
+    }
+});
+
 let currentModelIndex = 0;
-let models = ['c9c572b946de4f6b9f0fcc7043c23ea0.glb', '80d9e4b53b2448a4bb1411a7ff3e63a7.glb'];  // Add paths to your models
+const models = ['path_to_model1.glb', 'path_to_model2.glb'];  // Model paths
+let modelEntity, animationComponent;
 
-init();
-animate();
+// Load the first model
+loadModel(models[currentModelIndex]);
 
-function init() {
-    // Initialize scene
-    scene = new THREE.Scene();
-
-    // Initialize camera
-    camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-    camera.position.set(0, 1.6, 3);
-
-    // Initialize renderer
-    renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('canvas'), antialias: true });
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.xr.enabled = true;
-
-    // Add VR button
-    document.body.appendChild(VRButton.createButton(renderer));
-
-    // Load environment map for reflections
-    new RGBELoader()
-        .setPath('path_to_hdr/')  // Replace with the path to your HDR files
-        .load('royal_esplanade_1k.hdr', function (texture) {
-            texture.mapping = THREE.EquirectangularReflectionMapping;
-            scene.environment = texture;
-        });
-
-    // Load the first model
-    loadModel(models[currentModelIndex]);
-
-    // Add lighting
-    const ambientLight = new THREE.AmbientLight(0xffffff, 0.4);
-    scene.add(ambientLight);
-
-    const directionalLight = new THREE.DirectionalLight(0xffffff, 1.0);
-    directionalLight.position.set(5, 10, 7.5);
-    scene.add(directionalLight);
-
-    // Initialize clock for animations
-    clock = new THREE.Clock();
-
-    // Button interactions
-    document.getElementById('playAnimation').onclick = playAnimation;
-    document.getElementById('switchModel').onclick = switchModel;
-
-    // Handle window resize
-    window.addEventListener('resize', onWindowResize, false);
-}
-
-function loadModel(modelPath) {
-    if (model) {
-        scene.remove(model);
+// Function to load and switch models
+function loadModel(url) {
+    if (modelEntity) {
+        app.root.removeChild(modelEntity);
+        modelEntity.destroy();
     }
 
-    const loader = new GLTFLoader();
-    loader.load(modelPath, function (gltf) {
-        model = gltf.scene;
-        scene.add(model);
+    const glbLoader = new pc.AssetRegistry().loadFromUrlAndFilename(url, 'model', 'model');
+    glbLoader.on('load', function (err, asset) {
+        modelEntity = new pc.Entity();
+        modelEntity.addComponent('model', {
+            type: 'asset',
+            asset: asset,
+        });
 
-        if (gltf.animations.length) {
-            mixer = new THREE.AnimationMixer(model);
-            const action = mixer.clipAction(gltf.animations[0]);
-            action.play();
+        // Set animation component if the model has animations
+        if (asset.resource.animations.length > 0) {
+            animationComponent = new pc.AnimComponent();
+            modelEntity.addComponent('anim', {
+                activate: true,
+                loop: true,
+                assets: [asset.resource.animations[0]]
+            });
         }
+        
+        modelEntity.setLocalPosition(0, 0, -1);
+        app.root.addChild(modelEntity);
     });
 }
 
-function playAnimation() {
-    if (mixer) {
-        const action = mixer.existingAction(mixer._actions[0].getClip());
-        if (action) {
-            action.reset();
-            action.play();
+// Function to play animation
+document.getElementById('playAnimation').onclick = function () {
+    if (animationComponent) {
+        const animController = modelEntity.anim;
+        if (animController) {
+            animController.play();
         }
     }
-}
+};
 
-function switchModel() {
+// Function to switch model
+document.getElementById('switchModel').onclick = function () {
     currentModelIndex = (currentModelIndex + 1) % models.length;
     loadModel(models[currentModelIndex]);
-}
+};
 
-function onWindowResize() {
-    camera.aspect = window.innerWidth / window.innerHeight;
-    camera.updateProjectionMatrix();
-    renderer.setSize(window.innerWidth, window.innerHeight);
-}
-
-function animate() {
-    renderer.setAnimationLoop(render);
-}
-
-function render() {
-    const delta = clock.getDelta();
-    if (mixer) mixer.update(delta);
-    renderer.render(scene, camera);
-}
+// Update function
+app.on('update', function (dt) {
+    // Update scene
+});
