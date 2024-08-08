@@ -29,7 +29,7 @@ camera.addComponent('xr', {
     type: pc.XRTYPE_AR, 
     spaceType: pc.XRSPACETYPE_LOCAL 
 });
-camera.xr.'start'(camera);
+camera.xr.start(camera);
 
 // Create directional light
 const light = new pc.Entity();
@@ -52,7 +52,7 @@ app.assets.loadFromUrl('path_to_hdr/hdr_file.hdr', 'texture', function (err, ass
 });
 
 let currentModelIndex = 0;
-const models = ['c9c572b946de4f6b9f0fcc7043c23ea0.glb', '80d9e4b53b2448a4bb1411a7ff3e63a7.glb'];  // Model paths
+const models = ['path_to_model1.glb', 'path_to_model2.glb'];  // Model paths
 let modelEntity, animationComponent;
 
 // Load the first model
@@ -65,7 +65,7 @@ function loadModel(url) {
         modelEntity.destroy();
     }
 
-    const glbLoader = new pc.AssetRegistry().loadFromUrlAndFilename(GLTFLoader.js, 'model', 'model');
+    const glbLoader = new pc.AssetRegistry().loadFromUrlAndFilename(url, 'model', 'model');
     glbLoader.on('load', function (err, asset) {
         modelEntity = new pc.Entity();
         modelEntity.addComponent('model', {
@@ -102,6 +102,19 @@ document.getElementById('playAnimation').onclick = function () {
 document.getElementById('switchModel').onclick = function () {
     currentModelIndex = (currentModelIndex + 1) % models.length;
     loadModel(models[currentModelIndex]);
+};
+
+// Handle hotspot clicks
+document.getElementById('hotspot1').onclick = function () {
+    alert('Hotspot 1 clicked! Add your logic here.');
+};
+
+document.getElementById('hotspot2').onclick = function () {
+    alert('Hotspot 2 clicked! Add your logic here.');
+};
+
+document.getElementById('hotspot3').onclick = function () {
+    alert('Hotspot 3 clicked! Add your logic here.');
 };
 
 // Update function
