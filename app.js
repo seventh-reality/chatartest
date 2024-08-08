@@ -28,7 +28,7 @@ function init() {
 
     // Load 3D model
     const loader = new GLTFLoader();
-    loader.load('path_to_your_model.glb', function(gltf) {
+    loader.load('c9c572b946de4f6b9f0fcc7043c23ea0.glb', function(gltf) {
         model = gltf.scene;
         scene.add(model);
     });
