@@ -1,123 +1,158 @@
-// Initialize PlayCanvas app
-const canvas = document.getElementById('canvas');
-const app = new pc.Application(canvas, {
-    mouse: new pc.Mouse(canvas),
-    touch: new pc.TouchDevice(canvas),
-    elementInput: new pc.ElementInput(canvas),
-    keyboard: new pc.Keyboard(window),
-});
-app.start();
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader.js';
+import { VRButton } from 'three/examples/jsm/webxr/VRButton.js';
 
-// Set canvas resolution
-app.setCanvasFillMode(pc.FILLMODE_FILL_WINDOW);
-app.setCanvasResolution(pc.RESOLUTION_AUTO);
-window.addEventListener('resize', () => app.resizeCanvas());
-
-// Set up the scene
-app.scene.ambientLight = new pc.Color(0.5, 0.5, 0.5);
-
-// Create camera entity
-const camera = new pc.Entity();
-camera.addComponent('camera', {
-    clearColor: new pc.Color(0.1, 0.1, 0.1)
-});
-camera.addComponent('script');
-app.root.addChild(camera);
-
-// Enable WebXR AR
-camera.addComponent('xr', { 
-    type: pc.XRTYPE_AR, 
-    spaceType: pc.XRSPACETYPE_LOCAL 
-});
-camera.xr.start(camera);
-
-// Create directional light
-const light = new pc.Entity();
-light.addComponent('light', {
-    type: 'directional',
-    color: new pc.Color(1, 1, 1),
-    intensity: 1.5,
-    castShadows: true
-});
-light.setLocalEulerAngles(45, 30, 0);
-app.root.addChild(light);
-
-// Load HDR environment for reflections
-app.assets.loadFromUrl('path_to_hdr/hdr_file.hdr', 'texture', function (err, asset) {
-    if (!err) {
-        asset.resource.type = pc.TEXTURETYPE_RGBM;
-        app.scene.skyboxMip = 2;
-        app.scene.setSkybox(asset.resource);
-    }
-});
-
+let camera, scene, renderer, model, mixer, clock;
 let currentModelIndex = 0;
-const models = ['80d9e4b53b2448a4bb1411a7ff3e63a7.glb', 'c9c572b946de4f6b9f0fcc7043c23ea0.glb'];  // Model paths
-let modelEntity, animationComponent;
+const models = ['path_to_model1.glb', 'path_to_model2.glb']; // Paths to your models
+const hotspots = [];
 
-// Load the first model
-loadModel(models[currentModelIndex]);
+init();
+animate();
 
-// Function to load and switch models
-function loadModel(url) {
-    if (modelEntity) {
-        app.root.removeChild(modelEntity);
-        modelEntity.destroy();
-    }
+function init() {
+    // Initialize scene
+    scene = new THREE.Scene();
 
-    const glbLoader = new pc.AssetRegistry().loadFromUrlAndFilename(url, 'model', 'model');
-    glbLoader.on('load', function (err, asset) {
-        modelEntity = new pc.Entity();
-        modelEntity.addComponent('model', {
-            type: 'asset',
-            asset: asset,
+    // Initialize camera
+    camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    camera.position.set(0, 1.6, 3);
+
+    // Initialize renderer
+    renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('canvas'), antialias: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.xr.enabled = true;
+    document.body.appendChild(VRButton.createButton(renderer));
+
+    // Load environment map for reflections
+    new RGBELoader()
+        .setPath('path_to_hdr/')  // Replace with the path to your HDR files
+        .load('royal_esplanade_1k.hdr', function (texture) {
+            texture.mapping = THREE.EquirectangularReflectionMapping;
+            scene.environment = texture;
         });
 
-        // Set animation component if the model has animations
-        if (asset.resource.animations.length > 0) {
-            animationComponent = new pc.AnimComponent();
-            modelEntity.addComponent('anim', {
-                activate: true,
-                loop: true,
-                assets: [asset.resource.animations[0]]
-            });
+    // Load the first model
+    loadModel(models[currentModelIndex]);
+
+    // Add lighting
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.4);
+    scene.add(ambientLight);
+
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 1.0);
+    directionalLight.position.set(5, 10, 7.5);
+    scene.add(directionalLight);
+
+    // Initialize clock for animations
+    clock = new THREE.Clock();
+
+    // Button interactions
+    document.getElementById('playAnimation').onclick = playAnimation;
+    document.getElementById('switchModel').onclick = switchModel;
+
+    // Hotspot interactions
+    document.getElementById('hotspot1').onclick = function () {
+        alert('Hotspot 1 clicked!');
+    };
+    document.getElementById('hotspot2').onclick = function () {
+        alert('Hotspot 2 clicked!');
+    };
+    document.getElementById('hotspot3').onclick = function () {
+        alert('Hotspot 3 clicked!');
+    };
+
+    // Handle window resize
+    window.addEventListener('resize', onWindowResize, false);
+}
+
+function loadModel(modelPath) {
+    if (model) {
+        scene.remove(model);
+    }
+
+    const loader = new GLTFLoader();
+    loader.load(modelPath, function (gltf) {
+        model = gltf.scene;
+        scene.add(model);
+
+        if (gltf.animations.length) {
+            mixer = new THREE.AnimationMixer(model);
+            const action = mixer.clipAction(gltf.animations[0]);
+            action.play();
         }
-        
-        modelEntity.setLocalPosition(0, 0, -1);
-        app.root.addChild(modelEntity);
+
+        // Add 3D hotspots
+        addHotspots();
     });
 }
 
-// Function to play animation
-document.getElementById('playAnimation').onclick = function () {
-    if (animationComponent) {
-        const animController = modelEntity.anim;
-        if (animController) {
-            animController.play();
+function playAnimation() {
+    if (mixer) {
+        const action = mixer.existingAction(mixer._actions[0].getClip());
+        if (action) {
+            action.reset();
+            action.play();
         }
     }
-};
+}
 
-// Function to switch model
-document.getElementById('switchModel').onclick = function () {
+function switchModel() {
     currentModelIndex = (currentModelIndex + 1) % models.length;
     loadModel(models[currentModelIndex]);
-};
+}
 
-// Handle hotspot clicks
-document.getElementById('hotspot1').onclick = function () {
-    alert('Hotspot 1 clicked! Add your logic here.');
-};
+function onWindowResize() {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+}
 
-document.getElementById('hotspot2').onclick = function () {
-    alert('Hotspot 2 clicked! Add your logic here.');
-};
+function animate() {
+    renderer.setAnimationLoop(render);
+}
 
-document.getElementById('hotspot3').onclick = function () {
-    alert('Hotspot 3 clicked! Add your logic here.');
-};
+function render() {
+    const delta = clock.getDelta();
+    if (mixer) mixer.update(delta);
 
-// Update function
-app.on('update', function (dt) {
-    // Update scene
-});
+    // Update hotspots based on model position (if needed)
+    updateHotspots();
+
+    renderer.render(scene, camera);
+}
+
+function addHotspots() {
+    // Example to add a hotspot in the 3D scene
+    const hotspot1 = createHotspot(0, 1, -1);
+    const hotspot2 = createHotspot(1, 1, -1);
+    const hotspot3 = createHotspot(-1, 1, -1);
+
+    hotspots.push(hotspot1, hotspot2, hotspot3);
+    scene.add(hotspot1, hotspot2, hotspot3);
+}
+
+function createHotspot(x, y, z) {
+    const geometry = new THREE.SphereGeometry(0.05, 32, 32);
+    const material = new THREE.MeshBasicMaterial({ color: 0xff0000 });
+    const hotspot = new THREE.Mesh(geometry, material);
+    hotspot.position.set(x, y, z);
+    hotspot.userData = { id: `hotspot${hotspots.length + 1}` };
+    return hotspot;
+}
+
+function updateHotspots() {
+    hotspots.forEach(hotspot => {
+        // Convert 3D position to 2D screen coordinates
+        const vector = hotspot.position.clone().project(camera);
+        const x = (vector.x * 0.5 + 0.5) * window.innerWidth;
+        const y = -(vector.y * 0.5 - 0.5) * window.innerHeight;
+
+        // Update corresponding HTML hotspot position
+        const htmlHotspot = document.getElementById(hotspot.userData.id);
+        if (htmlHotspot) {
+            htmlHotspot.style.left = `${x}px`;
+            htmlHotspot.style.top = `${y}px`;
+        }
+    });
+}
