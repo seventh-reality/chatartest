@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AR Model Viewer</title>
+    <title>WebXR AR Model Viewer</title>
     <style>
         body, html {
             margin: 0;
@@ -24,24 +24,21 @@
             padding: 10px;
             margin: 5px;
             cursor: pointer;
+            z-index: 1;
         }
-        #rotateLeft { top: 10px; left: 10px; }
-        #rotateRight { top: 10px; right: 10px; }
-        #scaleUp { bottom: 10px; left: 10px; }
-        #scaleDown { bottom: 10px; right: 10px; }
+        #playAnimation { bottom: 20px; left: 20px; }
+        #switchModel { bottom: 20px; right: 20px; }
     </style>
 </head>
 <body>
     <canvas id="canvas"></canvas>
-    <button id="rotateLeft" class="ui-button">Rotate Left</button>
-    <button id="rotateRight" class="ui-button">Rotate Right</button>
-    <button id="scaleUp" class="ui-button">Scale Up</button>
-    <button id="scaleDown" class="ui-button">Scale Down</button>
+    <button id="playAnimation" class="ui-button">Play Animation</button>
+    <button id="switchModel" class="ui-button">Switch Model</button>
 
     <script src="https://threejs.org/build/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@webxr-input-profiles/motion-controllers/dist/motion-controllers.module.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/jsm/loaders/GLTFLoader.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/jsm/webxr/VRButton.js"></script>
+    <script src="https://threejs.org/examples/jsm/loaders/GLTFLoader.js"></script>
+    <script src="https://threejs.org/examples/jsm/loaders/RGBELoader.js"></script>
+    <script src="https://threejs.org/examples/jsm/webxr/VRButton.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
