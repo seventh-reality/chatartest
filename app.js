@@ -27,7 +27,7 @@ function init() {
 
     // Load environment map for reflections
     new RGBELoader()
-        .setPath('path_to_hdr/')  // Replace with the path to your HDR files
+        .setPath('music_hall_01_1k.hdr')  // Replace with the path to your HDR files
         .load('royal_esplanade_1k.hdr', function (texture) {
             texture.mapping = THREE.EquirectangularReflectionMapping;
             scene.environment = texture;
