@@ -52,7 +52,7 @@ app.assets.loadFromUrl('path_to_hdr/hdr_file.hdr', 'texture', function (err, ass
 });
 
 let currentModelIndex = 0;
-const models = ['c9c572b946de4f6b9f0fcc7043c23ea0.glb', 'path_to_model2.glb'];  // Model paths
+const models = ['c9c572b946de4f6b9f0fcc7043c23ea0.glb', '80d9e4b53b2448a4bb1411a7ff3e63a7.glb'];  // Model paths
 let modelEntity, animationComponent;
 
 // Load the first model
