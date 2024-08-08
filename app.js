@@ -29,7 +29,7 @@ camera.addComponent('xr', {
     type: pc.XRTYPE_AR, 
     spaceType: pc.XRSPACETYPE_LOCAL 
 });
-camera.xr.start(camera);
+camera.xr.'start'(camera);
 
 // Create directional light
 const light = new pc.Entity();
