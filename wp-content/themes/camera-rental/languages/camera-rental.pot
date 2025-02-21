@@ -1,0 +1,614 @@
+# Copyright (C) 2025 pewilliams
+# This file is distributed under the GNU General Public License.
+msgid ""
+msgstr ""
+"Project-Id-Version: Camera Rental 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/camera-rental\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-06T15:48:49+05:30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: camera-rental\n"
+
+#. Theme Name of the theme
+#: style.css
+#: block-patterns.php:17
+msgid "Camera Rental"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://www.ovationthemes.com/products/free-camera-wordpress-theme"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "The Camera Rental WordPress Theme is a feature-rich, visually appealing website template tailored for businesses offering camera and photography equipment rentals. Designed to meet the needs of photographers, videographers, and creatives, this theme is perfect for showcasing rental services for professional cameras, lenses, and accessories. Whether you're running a camera rental shop or providing specialized equipment like gimbals, drones, and lighting gear, this theme offers an intuitive and engaging platform to attract customers. With sections dedicated to displaying DSLR and mirrorless cameras, lens rentals, and video equipment like 4K and film cameras, this theme caters to a diverse clientele. Highlight your rental packages, showcase event-specific gear for weddings or corporate events, and offer equipment bundles for filmmakers and influencers. The responsive design ensures a seamless user experience across devices, while its SEO-friendly structure helps your site rank for terms like \"camera rental near me\" and \"professional video equipment rental.” This theme is ideal for photographers seeking rental solutions for fashion shoots, wildlife photography, or real estate projects. It also serves filmmakers with studio camera rentals and accessories like stabilizers, tripods, and lighting equipment. The clean and modern aesthetic, coupled with fast loading speeds and user-friendly navigation, ensures customers enjoy a smooth experience from start to finish."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "pewilliams"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.ovationthemes.com/"
+msgstr ""
+
+#: patterns/404.php
+msgctxt "Pattern title"
+msgid "Page Not Found"
+msgstr ""
+
+#: patterns/404.php:11
+msgid "404"
+msgstr ""
+
+#: patterns/404.php:15
+msgid "Page not found!"
+msgstr ""
+
+#: patterns/404.php:19
+msgid "Sorry, the page you are looking for does not exist or has been moved."
+msgstr ""
+
+#: patterns/404.php:24
+msgid "Return Home"
+msgstr ""
+
+#: patterns/archive.php
+msgctxt "Pattern title"
+msgid "Archives"
+msgstr ""
+
+#: patterns/banner.php
+msgctxt "Pattern title"
+msgid "Banner"
+msgstr ""
+
+#: patterns/banner.php:17
+msgid "Unforgettable Aquatic Activities"
+msgstr ""
+
+#: patterns/banner.php:21
+msgid "Discover Your Perfect"
+msgstr ""
+
+#: patterns/banner.php:21
+msgid "Camera And Lence"
+msgstr ""
+
+#: patterns/banner.php:25
+msgid "It is a long established fact that a reader will be by the readable content of a page when looking at its layout."
+msgstr ""
+
+#: patterns/banner.php:30
+msgid "Read More"
+msgstr ""
+
+#: patterns/cart.php
+msgctxt "Pattern title"
+msgid "Cart"
+msgstr ""
+
+#: patterns/cart.php:18
+msgid "You may be interested in…"
+msgstr ""
+
+#: patterns/cart.php:74
+msgid "Your cart is currently empty!"
+msgstr ""
+
+#: patterns/cart.php:82
+msgid "New in store"
+msgstr ""
+
+#: patterns/footer.php
+msgctxt "Pattern title"
+msgid "Footer"
+msgstr ""
+
+#: patterns/footer.php:23
+msgid "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+msgstr ""
+
+#: patterns/footer.php:39
+#: patterns/footer.php:123
+msgid "Company"
+msgstr ""
+
+#: patterns/footer.php:44
+msgid "About Us"
+msgstr ""
+
+#: patterns/footer.php:48
+msgid "Destinations"
+msgstr ""
+
+#: patterns/footer.php:52
+msgid "Meet the team"
+msgstr ""
+
+#: patterns/footer.php:56
+msgid "Our Pricing"
+msgstr ""
+
+#: patterns/footer.php:60
+msgid "Latest News"
+msgstr ""
+
+#: patterns/footer.php:67
+msgid "Services"
+msgstr ""
+
+#: patterns/footer.php:72
+msgid "Service 01"
+msgstr ""
+
+#: patterns/footer.php:76
+msgid "Service 02"
+msgstr ""
+
+#: patterns/footer.php:80
+msgid "Service 03"
+msgstr ""
+
+#: patterns/footer.php:84
+msgid "Service 04"
+msgstr ""
+
+#: patterns/footer.php:88
+msgid "Service 05"
+msgstr ""
+
+#: patterns/footer.php:95
+msgid "support"
+msgstr ""
+
+#: patterns/footer.php:100
+msgid "Profile"
+msgstr ""
+
+#: patterns/footer.php:104
+msgid "Contact"
+msgstr ""
+
+#: patterns/footer.php:108
+msgid "Help Center"
+msgstr ""
+
+#: patterns/footer.php:112
+msgid "Refund"
+msgstr ""
+
+#: patterns/footer.php:116
+msgid "Return Policy"
+msgstr ""
+
+#: patterns/footer.php:128
+msgid "About"
+msgstr ""
+
+#: patterns/footer.php:132
+msgid "Terms"
+msgstr ""
+
+#: patterns/footer.php:136
+msgid "Privacy Policy"
+msgstr ""
+
+#: patterns/footer.php:140
+msgid "Careers"
+msgstr ""
+
+#: patterns/footer.php:153
+msgid "Camera Rental WordPress Theme. Proudly powered by "
+msgstr ""
+
+#: patterns/footer.php:153
+msgid "Ovation Themes"
+msgstr ""
+
+#: patterns/footer.php:153
+msgid "and"
+msgstr ""
+
+#: patterns/footer.php:153
+msgid "WordPress"
+msgstr ""
+
+#: patterns/header-image.php
+msgctxt "Pattern title"
+msgid "Header Image"
+msgstr ""
+
+#: patterns/header.php
+msgctxt "Pattern title"
+msgid "Header"
+msgstr ""
+
+#: patterns/header.php:14
+msgid "Free shipping for all orders of $150+"
+msgstr ""
+
+#: patterns/header.php:26
+msgid "Mon - Fri 8:00 - 18:00 / Sunday 8:00 - 14:00"
+msgstr ""
+
+#: patterns/header.php:36
+msgid "1- 800-458-85968"
+msgstr ""
+
+#: patterns/header.php:46
+msgid "47 Bakery Street, London UK"
+msgstr ""
+
+#: patterns/header.php:85
+msgid "Book Now"
+msgstr ""
+
+#: patterns/latest-news.php
+msgctxt "Pattern title"
+msgid "Latest News"
+msgstr ""
+
+#: patterns/latest-news.php:12
+msgid "Our Blogs"
+msgstr ""
+
+#: patterns/latest-news.php:16
+msgid "Our Recent Blog &amp; News"
+msgstr ""
+
+#: patterns/more-post.php
+msgctxt "Pattern title"
+msgid "More Post"
+msgstr ""
+
+#: patterns/more-post.php:11
+msgid "More Articles &amp; Posts"
+msgstr ""
+
+#: patterns/page-title.php
+msgctxt "Pattern title"
+msgid "Page Title"
+msgstr ""
+
+#: patterns/search-product.php
+msgctxt "Pattern title"
+msgid "Search Product"
+msgstr ""
+
+#: patterns/search-product.php:42
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: patterns/search.php
+msgctxt "Pattern title"
+msgid "Search"
+msgstr ""
+
+#: patterns/service-section.php
+msgctxt "Pattern title"
+msgid "Service Section"
+msgstr ""
+
+#: patterns/service-section.php:16
+msgid "Popular Courses"
+msgstr ""
+
+#: patterns/service-section.php:20
+msgid "Find Camera Services Near You"
+msgstr ""
+
+#: patterns/service-section.php:33
+msgid "$714"
+msgstr ""
+
+#: patterns/service-section.php:39
+#: patterns/service-section.php:63
+#: patterns/service-section.php:87
+#: patterns/service-section.php:111
+msgid "Canon EOS 1500D"
+msgstr ""
+
+#: patterns/service-section.php:43
+msgid "150+ Camera"
+msgstr ""
+
+#: patterns/service-section.php:57
+msgid "$514"
+msgstr ""
+
+#: patterns/service-section.php:67
+msgid "280+ Camera"
+msgstr ""
+
+#: patterns/service-section.php:81
+msgid "$624"
+msgstr ""
+
+#: patterns/service-section.php:91
+msgid "350+ Camera"
+msgstr ""
+
+#: patterns/service-section.php:105
+msgid "$580"
+msgstr ""
+
+#: patterns/service-section.php:115
+msgid "370+ Camera"
+msgstr ""
+
+#: patterns/sidebar.php
+msgctxt "Pattern title"
+msgid "Sidebar"
+msgstr ""
+
+#: patterns/sidebar.php:12
+msgid "Search"
+msgstr ""
+
+#: patterns/sidebar.php:22
+msgid "Popular Posts"
+msgstr ""
+
+#: patterns/sidebar.php:38
+msgid "Categories"
+msgstr ""
+
+#: patterns/sidebar.php:48
+msgid "Archives"
+msgstr ""
+
+#: patterns/sidebar.php:58
+msgid "Tags"
+msgstr ""
+
+#: patterns/sidebar.php:68
+msgid "Follow Us"
+msgstr ""
+
+#: patterns/single-product.php
+msgctxt "Pattern title"
+msgid "Single Product"
+msgstr ""
+
+#: patterns/single-product.php:46
+msgid "Related Products"
+msgstr ""
+
+#: theme.json
+msgctxt "Style variation name"
+msgid "Lite"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to base left"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to base right"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal base to heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to base"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to primary left"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to primary right"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary Light"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Headings"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Second Heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Body Text"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Section Background"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Border Color"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Sidebar Shadow Color"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Roboto"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Jost"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Body Text"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Regular"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Big"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Gigantic"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Banner Title"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Grid Layout(Archieve posts)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Left Sidebar(Archieve posts)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Right Sidebar(Archieve posts)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page Left Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page Right Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page Without Header Image"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Post Left Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Post No Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Post Without Header Image"
+msgstr ""
