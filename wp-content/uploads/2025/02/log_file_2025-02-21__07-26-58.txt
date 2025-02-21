@@ -1,0 +1,63 @@
+
+---Upload files---
+Widget file was not uploaded. Error: No file provided.
+
+---Upload files---
+Customizer file was not uploaded. Error: No file provided.
+
+---Upload files---
+Redux file was not uploaded. Error: No file provided.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/chatartest
+Data file = C:\xampp\htdocs\chatartest/wp-content/uploads/2025/02/collective-onepage.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[WARNING] Failed to import "Type": Invalid post type acf-field
+[WARNING] Failed to import "Image": Invalid post type acf-field
+[WARNING] Failed to import "Text": Invalid post type acf-field
+[WARNING] Failed to import "Text Position": Invalid post type acf-field
+[WARNING] Failed to import "Button Text": Invalid post type acf-field
+[WARNING] Failed to import "Button Link": Invalid post type acf-field
+[WARNING] Failed to import "Video url": Invalid post type acf-field
+[WARNING] Failed to import "Video Thumb": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Color": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Opacity": Invalid post type acf-field
+[WARNING] Failed to import "Network": Invalid post type acf-field
+[WARNING] Failed to import "Url": Invalid post type acf-field
+[WARNING] Failed to import "Image": Invalid post type acf-field
+[WARNING] Failed to import "Item Size": Invalid post type acf-field
+[WARNING] Failed to import "Item Title": Invalid post type acf-field
+[WARNING] Failed to import "Item Description": Invalid post type acf-field
+
+
+------
+New AJAX call!
+[WARNING] Failed to import "Type": Invalid post type acf-field
+[WARNING] Failed to import "Image": Invalid post type acf-field
+[WARNING] Failed to import "Text": Invalid post type acf-field
+[WARNING] Failed to import "Text Position": Invalid post type acf-field
+[WARNING] Failed to import "Button Text": Invalid post type acf-field
+[WARNING] Failed to import "Button Link": Invalid post type acf-field
+[WARNING] Failed to import "Video url": Invalid post type acf-field
+[WARNING] Failed to import "Video Thumb": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Color": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Opacity": Invalid post type acf-field
+[WARNING] Failed to import "Network": Invalid post type acf-field
+[WARNING] Failed to import "Url": Invalid post type acf-field
+[WARNING] Failed to import "Image": Invalid post type acf-field
+[WARNING] Failed to import "Item Size": Invalid post type acf-field
+[WARNING] Failed to import "Item Title": Invalid post type acf-field
+[WARNING] Failed to import "Item Description": Invalid post type acf-field
+
+
+---ocdi/after_import---
+

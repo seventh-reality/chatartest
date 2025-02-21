@@ -1,0 +1,88 @@
+
+---Upload files---
+Widget file was not uploaded. Error: No file provided.
+
+---Upload files---
+Customizer file was not uploaded. Error: No file provided.
+
+---Upload files---
+Redux file was not uploaded. Error: No file provided.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/chatartest
+Data file = C:\xampp\htdocs\chatartest/wp-content/uploads/2025/02/woocommerce.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import product_cat Music
+[WARNING] Failed to import product_cat Posters
+[WARNING] Failed to import product_cat Singles
+[WARNING] Failed to import product_cat T-shirts
+[WARNING] Failed to import product_cat Albums
+[ERROR] Failed to import "T_1_front" (Media)
+[ERROR] Failed to import "T_1_back" (Media)
+[ERROR] Failed to import "T_2_front" (Media)
+[ERROR] Failed to import "T_2_back" (Media)
+[ERROR] Failed to import "T_4_front" (Media)
+[ERROR] Failed to import "T_3_back" (Media)
+[ERROR] Failed to import "T_3_front" (Media)
+[ERROR] Failed to import "T_4_back" (Media)
+[ERROR] Failed to import "T_4_front" (Media)
+[ERROR] Failed to import "T_5_front" (Media)
+[ERROR] Failed to import "T_5_back" (Media)
+[ERROR] Failed to import "T_6_front" (Media)
+[ERROR] Failed to import "T_6_back" (Media)
+[ERROR] Failed to import "T_7_front" (Media)
+[ERROR] Failed to import "T_7_back" (Media)
+[ERROR] Failed to import "hoodie_7_front" (Media)
+[ERROR] Failed to import "hoodie_7_back" (Media)
+[ERROR] Failed to import "hoodie_1_back" (Media)
+[ERROR] Failed to import "hoodie_1_front" (Media)
+[ERROR] Failed to import "hoodie_2_front" (Media)
+[ERROR] Failed to import "hoodie_2_back" (Media)
+[ERROR] Failed to import "hoodie_3_front" (Media)
+[ERROR] Failed to import "hoodie_3_back" (Media)
+[ERROR] Failed to import "hoodie_4_front" (Media)
+[ERROR] Failed to import "hoodie_4_back" (Media)
+[ERROR] Failed to import "hoodie_5_front" (Media)
+[ERROR] Failed to import "hoodie_5_back" (Media)
+[ERROR] Failed to import "hoodie_6_front" (Media)
+[ERROR] Failed to import "hoodie_6_back" (Media)
+[ERROR] Failed to import "poster_1_up" (Media)
+[ERROR] Failed to import "Poster_1_flat" (Media)
+[ERROR] Failed to import "poster_2_up" (Media)
+[ERROR] Failed to import "Poster_2_flat" (Media)
+[ERROR] Failed to import "poster_3_up" (Media)
+[ERROR] Failed to import "Poster_3_flat" (Media)
+[ERROR] Failed to import "poster_4_up" (Media)
+[ERROR] Failed to import "Poster_4_flat" (Media)
+[ERROR] Failed to import "poster_5_up" (Media)
+[ERROR] Failed to import "Poster_5_flat" (Media)
+[ERROR] Failed to import "cd_1_angle" (Media)
+[ERROR] Failed to import "cd_1_flat" (Media)
+[ERROR] Failed to import "cd_2_angle" (Media)
+[ERROR] Failed to import "cd_2_flat" (Media)
+[ERROR] Failed to import "cd_3_angle" (Media)
+[ERROR] Failed to import "cd_3_flat" (Media)
+[ERROR] Failed to import "cd_4_flat" (Media)
+[ERROR] Failed to import "cd_4_angle" (Media)
+
+
+---ocdi/after_import---
+

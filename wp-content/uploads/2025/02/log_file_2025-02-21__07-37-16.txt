@@ -1,0 +1,689 @@
+
+---Upload files---
+Widget file was not uploaded. Error: No file provided.
+
+---Upload files---
+Customizer file was not uploaded. Error: No file provided.
+
+---Upload files---
+Redux file was not uploaded. Error: No file provided.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/chatartest
+Data file = C:\xampp\htdocs\chatartest/wp-content/uploads/2025/02/collective.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import product_cat Music
+[WARNING] Failed to import product_cat Posters
+[WARNING] Failed to import product_cat Singles
+[WARNING] Failed to import product_cat T-shirts
+[WARNING] Failed to import product_cat Albums
+[WARNING] Failed to import "Slider Options": Invalid post type acf-field
+[WARNING] Failed to import "Sliider Display": Invalid post type acf-field
+[WARNING] Failed to import "Autoslide": Invalid post type acf-field
+[WARNING] Failed to import "Autoslide Timer": Invalid post type acf-field
+[WARNING] Failed to import "Slider Animation": Invalid post type acf-field
+[WARNING] Failed to import "Enable Thumbnails": Invalid post type acf-field
+[WARNING] Failed to import "Slider Gallery": Invalid post type acf-field
+[WARNING] Failed to import "Slider": Invalid post type acf-field
+[WARNING] Failed to import "Type": Invalid post type acf-field
+[WARNING] Failed to import "Image": Invalid post type acf-field
+[WARNING] Failed to import "Text": Invalid post type acf-field
+[WARNING] Failed to import "Text Position": Invalid post type acf-field
+[WARNING] Failed to import "Button Text": Invalid post type acf-field
+[WARNING] Failed to import "Button Link": Invalid post type acf-field
+[WARNING] Failed to import "Video url": Invalid post type acf-field
+[WARNING] Failed to import "Video Thumb": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Color": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Opacity": Invalid post type acf-field
+[WARNING] Failed to import "Post per page": Invalid post type acf-field
+[WARNING] Failed to import "Portfolio Categories": Invalid post type acf-field
+[WARNING] Failed to import "Columns On lg": Invalid post type acf-field
+[WARNING] Failed to import "Item Offset": Invalid post type acf-field
+[WARNING] Failed to import "Overlay": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Color": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Opacity": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Offset": Invalid post type acf-field
+[WARNING] Failed to import "Text Aligment": Invalid post type acf-field
+[WARNING] Failed to import "Title Color": Invalid post type acf-field
+[WARNING] Failed to import "Category Color": Invalid post type acf-field
+[WARNING] Failed to import "Text Decoration": Invalid post type acf-field
+[WARNING] Failed to import "Text Overlay Offset": Invalid post type acf-field
+[WARNING] Failed to import "Filter Aligment": Invalid post type acf-field
+[WARNING] Failed to import "Brand Color": Invalid post type acf-field
+[WARNING] Failed to import "Web Site Font": Invalid post type acf-field
+[WARNING] Failed to import "Headings Color": Invalid post type acf-field
+[WARNING] Failed to import "Heading Fontweight": Invalid post type acf-field
+[WARNING] Failed to import "Text And Paragraphs Color": Invalid post type acf-field
+[WARNING] Failed to import "Text And Paragraphs Fontsize": Invalid post type acf-field
+[WARNING] Failed to import "Text And Paragraphs Fontweight": Invalid post type acf-field
+[WARNING] Failed to import "Footer Background Color": Invalid post type acf-field
+[WARNING] Failed to import "Footer Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Gallery": Invalid post type acf-field
+[WARNING] Failed to import "Main Options": Invalid post type acf-field
+[WARNING] Failed to import "Disable Blog Social Shares": Invalid post type acf-field
+[WARNING] Failed to import "Disable Project Social Shares": Invalid post type acf-field
+[WARNING] Failed to import "Share Posts": Invalid post type acf-field
+[WARNING] Failed to import "404 Page": Invalid post type acf-field
+[WARNING] Failed to import "404 Title": Invalid post type acf-field
+[WARNING] Failed to import "404 Oops": Invalid post type acf-field
+[WARNING] Failed to import "404 Text": Invalid post type acf-field
+[WARNING] Failed to import "Back To Home": Invalid post type acf-field
+[WARNING] Failed to import "Custom Code": Invalid post type acf-field
+[WARNING] Failed to import "Custom Css": Invalid post type acf-field
+[WARNING] Failed to import "Custom Js": Invalid post type acf-field
+[WARNING] Failed to import "Header": Invalid post type acf-field
+[WARNING] Failed to import "Header Type": Invalid post type acf-field
+[WARNING] Failed to import "Header Background Color": Invalid post type acf-field
+[WARNING] Failed to import "Menu Sub Item Background": Invalid post type acf-field
+[WARNING] Failed to import "Menu Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Menu Sub item Border Color": Invalid post type acf-field
+[WARNING] Failed to import "Logo": Invalid post type acf-field
+[WARNING] Failed to import "Logo Type": Invalid post type acf-field
+[WARNING] Failed to import "Logo": Invalid post type acf-field
+[WARNING] Failed to import "Text Logo": Invalid post type acf-field
+[WARNING] Failed to import "Logo Font": Invalid post type acf-field
+[WARNING] Failed to import "Logo Color": Invalid post type acf-field
+[WARNING] Failed to import "Text Font Size": Invalid post type acf-field
+[WARNING] Failed to import "Social Medias": Invalid post type acf-field
+[WARNING] Failed to import "Social Networks": Invalid post type acf-field
+[WARNING] Failed to import "Network": Invalid post type acf-field
+[WARNING] Failed to import "Url": Invalid post type acf-field
+[WARNING] Failed to import "Quote": Invalid post type acf-field
+[WARNING] Failed to import "Quote Author": Invalid post type acf-field
+[WARNING] Failed to import "Embed": Invalid post type acf-field
+[WARNING] Failed to import "Options": Invalid post type acf-field
+[WARNING] Failed to import "Project Type": Invalid post type acf-field
+[WARNING] Failed to import "Project Content": Invalid post type acf-field
+[WARNING] Failed to import "Gallery": Invalid post type acf-field
+[WARNING] Failed to import "Video": Invalid post type acf-field
+[WARNING] Failed to import "Project Brief": Invalid post type acf-field
+[WARNING] Failed to import "Brief Title": Invalid post type acf-field
+[WARNING] Failed to import "Brief Items": Invalid post type acf-field
+[WARNING] Failed to import "Image": Invalid post type acf-field
+[WARNING] Failed to import "Item Size": Invalid post type acf-field
+[WARNING] Failed to import "Item Title": Invalid post type acf-field
+[WARNING] Failed to import "Item Description": Invalid post type acf-field
+[WARNING] Failed to import "Display Page Title": Invalid post type acf-field
+[WARNING] Failed to import "Filter": Invalid post type acf-field
+[WARNING] Failed to import "Border Offset": Invalid post type acf-field
+[WARNING] Failed to import "Content Aligment": Invalid post type acf-field
+[WARNING] Failed to import "Slider Height": Invalid post type acf-field
+[WARNING] Failed to import "Transparent Header And Footer": Invalid post type acf-field
+[WARNING] Failed to import "Display Border": Invalid post type acf-field
+[WARNING] Failed to import "Border Color": Invalid post type acf-field
+[WARNING] Failed to import "Page Layout": Invalid post type acf-field
+[WARNING] Failed to import "Enable Sidebar": Invalid post type acf-field
+[WARNING] Failed to import "Sidebar position": Invalid post type acf-field
+[WARNING] Failed to import "Hide Page Title": Invalid post type acf-field
+[WARNING] Failed to import "Width": Invalid post type acf-field
+[WARNING] Failed to import "Height": Invalid post type acf-field
+[WARNING] Failed to import "Max Width": Invalid post type acf-field
+[WARNING] Failed to import "Arrow Style": Invalid post type acf-field
+[WARNING] Failed to import "Arrow Position": Invalid post type acf-field
+[WARNING] Failed to import "Custom Css": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Active": Invalid post type acf-field
+[WARNING] Failed to import "Full Width": Invalid post type acf-field
+[WARNING] Failed to import "Disable Header Divider": Invalid post type acf-field
+[WARNING] Failed to import "Disable Footer": Invalid post type acf-field
+[WARNING] Failed to import "Footer Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Header Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Full Width": Invalid post type acf-field
+[WARNING] Failed to import "Footer Sidebar1 Columns": Invalid post type acf-field
+[WARNING] Failed to import "Footer Sidebar2 Columns": Invalid post type acf-field
+[WARNING] Failed to import "Footer Sidebar3 Columns": Invalid post type acf-field
+[WARNING] Failed to import "Footer Sidebar4 Columns": Invalid post type acf-field
+[WARNING] Failed to import "Footer Sidebar": Invalid post type acf-field
+[WARNING] Failed to import "Gap Between Header and Content": Invalid post type acf-field
+[WARNING] Failed to import "Logo": Invalid post type acf-field
+[WARNING] Failed to import "Gap Between Header and Content": Invalid post type acf-field
+[WARNING] Failed to import "Disable Header Divider": Invalid post type acf-field
+[WARNING] Failed to import "Background Image": Invalid post type acf-field
+[WARNING] Failed to import "Enable default container (1200px)": Invalid post type acf-field
+[WARNING] Failed to import "Project Options": Invalid post type acf-field
+[WARNING] Failed to import "Gallery Padding": Invalid post type acf-field
+[WARNING] Failed to import "Gallery Padding": Invalid post type acf-field
+[WARNING] Failed to import "Transparent Header": Invalid post type acf-field
+[WARNING] Failed to import "Logo": Invalid post type acf-field
+[WARNING] Failed to import "Header Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Disable Header Divider": Invalid post type acf-field
+[WARNING] Failed to import "Container": Invalid post type acf-field
+[WARNING] Failed to import "Item Hover Effect": Invalid post type acf-field
+[WARNING] Failed to import "Data Options": Invalid post type acf-field
+[WARNING] Failed to import "Design Options": Invalid post type acf-field
+[WARNING] Failed to import "Page Options": Invalid post type acf-field
+[WARNING] Failed to import "Page Sub Header": Invalid post type acf-field
+[WARNING] Failed to import "Sub Header Background Color": Invalid post type acf-field
+[WARNING] Failed to import "Sub Header Background Image": Invalid post type acf-field
+[WARNING] Failed to import "Sub Header Content": Invalid post type acf-field
+[WARNING] Failed to import "Enable Frame": Invalid post type acf-field
+[WARNING] Failed to import "Frame Width": Invalid post type acf-field
+[WARNING] Failed to import "Frame Color": Invalid post type acf-field
+[WARNING] Failed to import "Enable Frame": Invalid post type acf-field
+[WARNING] Failed to import "Frame Width": Invalid post type acf-field
+[WARNING] Failed to import "Frame Color": Invalid post type acf-field
+[WARNING] Failed to import "Page Header": Invalid post type acf-field
+[WARNING] Failed to import "Page Footer": Invalid post type acf-field
+[WARNING] Failed to import "Header Divider Color": Invalid post type acf-field
+[WARNING] Failed to import "Style": Invalid post type acf-field
+[WARNING] Failed to import "Menu Hover Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Menu Sub Item Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Menu Sub Item Hover Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Menu v5 backdrop color": Invalid post type acf-field
+[WARNING] Failed to import "Menu v5 icon color": Invalid post type acf-field
+[WARNING] Failed to import "Menu v5 icon hover color": Invalid post type acf-field
+[WARNING] Failed to import "Hide Social Networks": Invalid post type acf-field
+[WARNING] Failed to import "Social Icons Color": Invalid post type acf-field
+[WARNING] Failed to import "Social Border Icons Color": Invalid post type acf-field
+[WARNING] Failed to import "Social Hover Icons Color": Invalid post type acf-field
+[WARNING] Failed to import "Social Hover Border Icons Color": Invalid post type acf-field
+[WARNING] Failed to import "Stoned Headings Color": Invalid post type acf-field
+[WARNING] Failed to import "Stoned Heading Fontsize": Invalid post type acf-field
+[WARNING] Failed to import "Stoned Heading Fontweight": Invalid post type acf-field
+[WARNING] Failed to import "Disable Stoned Headings Bottom Line": Invalid post type acf-field
+[WARNING] Failed to import "Filter Background Color": Invalid post type acf-field
+[WARNING] Failed to import "Filter Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Text Decoration Color": Invalid post type acf-field
+[WARNING] Failed to import "Columns On md": Invalid post type acf-field
+[WARNING] Failed to import "Columns On sm": Invalid post type acf-field
+[WARNING] Failed to import "Share Text": Invalid post type acf-field
+[WARNING] Failed to import "Square Display": Invalid post type acf-field
+[WARNING] Failed to import "Loading Image1": Invalid post type acf-field
+[WARNING] Failed to import "Loading Image2": Invalid post type acf-field
+[WARNING] Failed to import "Loading Color": Invalid post type acf-field
+[WARNING] Failed to import "Loading Color Opacity": Invalid post type acf-field
+[WARNING] Failed to import "Hide Page titles": Invalid post type acf-field
+[WARNING] Failed to import "Google Maps API key": Invalid post type acf-field
+[WARNING] Failed to import "landing link": Invalid post type acf-field
+[WARNING] Failed to import "Disable sidebar in shop pages": Invalid post type acf-field
+[WARNING] Failed to import "Related products count": Invalid post type acf-field
+[WARNING] Failed to import "Project Page": Invalid post type acf-field
+[WARNING] Failed to import "Slider Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Portfolio Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Branding": Invalid post type acf-field-group
+[WARNING] Failed to import "Footer Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Gallery Post": Invalid post type acf-field-group
+[WARNING] Failed to import "General Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Header": Invalid post type acf-field-group
+[WARNING] Failed to import "Page Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Quote Post": Invalid post type acf-field-group
+[WARNING] Failed to import "Video Post": Invalid post type acf-field-group
+[WARNING] Failed to import "Project": Invalid post type acf-field-group
+[WARNING] Failed to import "Blog Page Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Post Media Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Post Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Project Landing Link": Invalid post type acf-field-group
+[WARNING] Failed to import "Enable Onepage": Invalid post type acf-field
+[WARNING] Failed to import "Logo Mobile": Invalid post type acf-field
+[WARNING] Failed to import "Slider Orientation Vertical": Invalid post type acf-field
+[WARNING] Failed to import "Image Preload": Invalid post type acf-field
+[WARNING] Failed to import "Image Preload": Invalid post type acf-field
+[WARNING] Failed to import "Shop": Invalid post type acf-field-group
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import product_cat Music
+[WARNING] Failed to import product_cat Posters
+[WARNING] Failed to import product_cat Singles
+[WARNING] Failed to import product_cat T-shirts
+[WARNING] Failed to import product_cat Albums
+[WARNING] Failed to import "Slider Options": Invalid post type acf-field
+[WARNING] Failed to import "Sliider Display": Invalid post type acf-field
+[WARNING] Failed to import "Autoslide": Invalid post type acf-field
+[WARNING] Failed to import "Autoslide Timer": Invalid post type acf-field
+[WARNING] Failed to import "Slider Animation": Invalid post type acf-field
+[WARNING] Failed to import "Enable Thumbnails": Invalid post type acf-field
+[WARNING] Failed to import "Slider Gallery": Invalid post type acf-field
+[WARNING] Failed to import "Slider": Invalid post type acf-field
+[WARNING] Failed to import "Type": Invalid post type acf-field
+[WARNING] Failed to import "Image": Invalid post type acf-field
+[WARNING] Failed to import "Text": Invalid post type acf-field
+[WARNING] Failed to import "Text Position": Invalid post type acf-field
+[WARNING] Failed to import "Button Text": Invalid post type acf-field
+[WARNING] Failed to import "Button Link": Invalid post type acf-field
+[WARNING] Failed to import "Video url": Invalid post type acf-field
+[WARNING] Failed to import "Video Thumb": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Color": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Opacity": Invalid post type acf-field
+[WARNING] Failed to import "Post per page": Invalid post type acf-field
+[WARNING] Failed to import "Portfolio Categories": Invalid post type acf-field
+[WARNING] Failed to import "Columns On lg": Invalid post type acf-field
+[WARNING] Failed to import "Item Offset": Invalid post type acf-field
+[WARNING] Failed to import "Overlay": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Color": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Opacity": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Offset": Invalid post type acf-field
+[WARNING] Failed to import "Text Aligment": Invalid post type acf-field
+[WARNING] Failed to import "Title Color": Invalid post type acf-field
+[WARNING] Failed to import "Category Color": Invalid post type acf-field
+[WARNING] Failed to import "Text Decoration": Invalid post type acf-field
+[WARNING] Failed to import "Text Overlay Offset": Invalid post type acf-field
+[WARNING] Failed to import "Filter Aligment": Invalid post type acf-field
+[WARNING] Failed to import "Brand Color": Invalid post type acf-field
+[WARNING] Failed to import "Web Site Font": Invalid post type acf-field
+[WARNING] Failed to import "Headings Color": Invalid post type acf-field
+[WARNING] Failed to import "Heading Fontweight": Invalid post type acf-field
+[WARNING] Failed to import "Text And Paragraphs Color": Invalid post type acf-field
+[WARNING] Failed to import "Text And Paragraphs Fontsize": Invalid post type acf-field
+[WARNING] Failed to import "Text And Paragraphs Fontweight": Invalid post type acf-field
+[WARNING] Failed to import "Footer Background Color": Invalid post type acf-field
+[WARNING] Failed to import "Footer Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Gallery": Invalid post type acf-field
+[WARNING] Failed to import "Main Options": Invalid post type acf-field
+[WARNING] Failed to import "Disable Blog Social Shares": Invalid post type acf-field
+[WARNING] Failed to import "Disable Project Social Shares": Invalid post type acf-field
+[WARNING] Failed to import "Share Posts": Invalid post type acf-field
+[WARNING] Failed to import "404 Page": Invalid post type acf-field
+[WARNING] Failed to import "404 Title": Invalid post type acf-field
+[WARNING] Failed to import "404 Oops": Invalid post type acf-field
+[WARNING] Failed to import "404 Text": Invalid post type acf-field
+[WARNING] Failed to import "Back To Home": Invalid post type acf-field
+[WARNING] Failed to import "Custom Code": Invalid post type acf-field
+[WARNING] Failed to import "Custom Css": Invalid post type acf-field
+[WARNING] Failed to import "Custom Js": Invalid post type acf-field
+[WARNING] Failed to import "Header": Invalid post type acf-field
+[WARNING] Failed to import "Header Type": Invalid post type acf-field
+[WARNING] Failed to import "Header Background Color": Invalid post type acf-field
+[WARNING] Failed to import "Menu Sub Item Background": Invalid post type acf-field
+[WARNING] Failed to import "Menu Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Menu Sub item Border Color": Invalid post type acf-field
+[WARNING] Failed to import "Logo": Invalid post type acf-field
+[WARNING] Failed to import "Logo Type": Invalid post type acf-field
+[WARNING] Failed to import "Logo": Invalid post type acf-field
+[WARNING] Failed to import "Text Logo": Invalid post type acf-field
+[WARNING] Failed to import "Logo Font": Invalid post type acf-field
+[WARNING] Failed to import "Logo Color": Invalid post type acf-field
+[WARNING] Failed to import "Text Font Size": Invalid post type acf-field
+[WARNING] Failed to import "Social Medias": Invalid post type acf-field
+[WARNING] Failed to import "Social Networks": Invalid post type acf-field
+[WARNING] Failed to import "Network": Invalid post type acf-field
+[WARNING] Failed to import "Url": Invalid post type acf-field
+[WARNING] Failed to import "Quote": Invalid post type acf-field
+[WARNING] Failed to import "Quote Author": Invalid post type acf-field
+[WARNING] Failed to import "Embed": Invalid post type acf-field
+[WARNING] Failed to import "Options": Invalid post type acf-field
+[WARNING] Failed to import "Project Type": Invalid post type acf-field
+[WARNING] Failed to import "Project Content": Invalid post type acf-field
+[WARNING] Failed to import "Gallery": Invalid post type acf-field
+[WARNING] Failed to import "Video": Invalid post type acf-field
+[WARNING] Failed to import "Project Brief": Invalid post type acf-field
+[WARNING] Failed to import "Brief Title": Invalid post type acf-field
+[WARNING] Failed to import "Brief Items": Invalid post type acf-field
+[WARNING] Failed to import "Image": Invalid post type acf-field
+[WARNING] Failed to import "Item Size": Invalid post type acf-field
+[WARNING] Failed to import "Item Title": Invalid post type acf-field
+[WARNING] Failed to import "Item Description": Invalid post type acf-field
+[WARNING] Failed to import "Display Page Title": Invalid post type acf-field
+[WARNING] Failed to import "Filter": Invalid post type acf-field
+[WARNING] Failed to import "Border Offset": Invalid post type acf-field
+[WARNING] Failed to import "Content Aligment": Invalid post type acf-field
+[WARNING] Failed to import "Slider Height": Invalid post type acf-field
+[WARNING] Failed to import "Transparent Header And Footer": Invalid post type acf-field
+[WARNING] Failed to import "Display Border": Invalid post type acf-field
+[WARNING] Failed to import "Border Color": Invalid post type acf-field
+[WARNING] Failed to import "Page Layout": Invalid post type acf-field
+[WARNING] Failed to import "Enable Sidebar": Invalid post type acf-field
+[WARNING] Failed to import "Sidebar position": Invalid post type acf-field
+[WARNING] Failed to import "Hide Page Title": Invalid post type acf-field
+[WARNING] Failed to import "Width": Invalid post type acf-field
+[WARNING] Failed to import "Height": Invalid post type acf-field
+[WARNING] Failed to import "Max Width": Invalid post type acf-field
+[WARNING] Failed to import "Arrow Style": Invalid post type acf-field
+[WARNING] Failed to import "Arrow Position": Invalid post type acf-field
+[WARNING] Failed to import "Custom Css": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Active": Invalid post type acf-field
+[WARNING] Failed to import "Full Width": Invalid post type acf-field
+[WARNING] Failed to import "Disable Header Divider": Invalid post type acf-field
+[WARNING] Failed to import "Disable Footer": Invalid post type acf-field
+[WARNING] Failed to import "Footer Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Header Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Full Width": Invalid post type acf-field
+[WARNING] Failed to import "Footer Sidebar1 Columns": Invalid post type acf-field
+[WARNING] Failed to import "Footer Sidebar2 Columns": Invalid post type acf-field
+[WARNING] Failed to import "Footer Sidebar3 Columns": Invalid post type acf-field
+[WARNING] Failed to import "Footer Sidebar4 Columns": Invalid post type acf-field
+[WARNING] Failed to import "Footer Sidebar": Invalid post type acf-field
+[WARNING] Failed to import "Gap Between Header and Content": Invalid post type acf-field
+[WARNING] Failed to import "Logo": Invalid post type acf-field
+[WARNING] Failed to import "Gap Between Header and Content": Invalid post type acf-field
+[WARNING] Failed to import "Disable Header Divider": Invalid post type acf-field
+[WARNING] Failed to import "Background Image": Invalid post type acf-field
+[WARNING] Failed to import "Enable default container (1200px)": Invalid post type acf-field
+[WARNING] Failed to import "Project Options": Invalid post type acf-field
+[WARNING] Failed to import "Gallery Padding": Invalid post type acf-field
+[WARNING] Failed to import "Gallery Padding": Invalid post type acf-field
+[WARNING] Failed to import "Transparent Header": Invalid post type acf-field
+[WARNING] Failed to import "Logo": Invalid post type acf-field
+[WARNING] Failed to import "Header Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Disable Header Divider": Invalid post type acf-field
+[WARNING] Failed to import "Container": Invalid post type acf-field
+[WARNING] Failed to import "Item Hover Effect": Invalid post type acf-field
+[WARNING] Failed to import "Data Options": Invalid post type acf-field
+[WARNING] Failed to import "Design Options": Invalid post type acf-field
+[WARNING] Failed to import "Page Options": Invalid post type acf-field
+[WARNING] Failed to import "Page Sub Header": Invalid post type acf-field
+[WARNING] Failed to import "Sub Header Background Color": Invalid post type acf-field
+[WARNING] Failed to import "Sub Header Background Image": Invalid post type acf-field
+[WARNING] Failed to import "Sub Header Content": Invalid post type acf-field
+[WARNING] Failed to import "Enable Frame": Invalid post type acf-field
+[WARNING] Failed to import "Frame Width": Invalid post type acf-field
+[WARNING] Failed to import "Frame Color": Invalid post type acf-field
+[WARNING] Failed to import "Enable Frame": Invalid post type acf-field
+[WARNING] Failed to import "Frame Width": Invalid post type acf-field
+[WARNING] Failed to import "Frame Color": Invalid post type acf-field
+[WARNING] Failed to import "Page Header": Invalid post type acf-field
+[WARNING] Failed to import "Page Footer": Invalid post type acf-field
+[WARNING] Failed to import "Header Divider Color": Invalid post type acf-field
+[WARNING] Failed to import "Style": Invalid post type acf-field
+[WARNING] Failed to import "Menu Hover Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Menu Sub Item Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Menu Sub Item Hover Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Menu v5 backdrop color": Invalid post type acf-field
+[WARNING] Failed to import "Menu v5 icon color": Invalid post type acf-field
+[WARNING] Failed to import "Menu v5 icon hover color": Invalid post type acf-field
+[WARNING] Failed to import "Hide Social Networks": Invalid post type acf-field
+[WARNING] Failed to import "Social Icons Color": Invalid post type acf-field
+[WARNING] Failed to import "Social Border Icons Color": Invalid post type acf-field
+[WARNING] Failed to import "Social Hover Icons Color": Invalid post type acf-field
+[WARNING] Failed to import "Social Hover Border Icons Color": Invalid post type acf-field
+[WARNING] Failed to import "Stoned Headings Color": Invalid post type acf-field
+[WARNING] Failed to import "Stoned Heading Fontsize": Invalid post type acf-field
+[WARNING] Failed to import "Stoned Heading Fontweight": Invalid post type acf-field
+[WARNING] Failed to import "Disable Stoned Headings Bottom Line": Invalid post type acf-field
+[WARNING] Failed to import "Filter Background Color": Invalid post type acf-field
+[WARNING] Failed to import "Filter Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Text Decoration Color": Invalid post type acf-field
+[WARNING] Failed to import "Columns On md": Invalid post type acf-field
+[WARNING] Failed to import "Columns On sm": Invalid post type acf-field
+[WARNING] Failed to import "Share Text": Invalid post type acf-field
+[WARNING] Failed to import "Square Display": Invalid post type acf-field
+[WARNING] Failed to import "Loading Image1": Invalid post type acf-field
+[WARNING] Failed to import "Loading Image2": Invalid post type acf-field
+[WARNING] Failed to import "Loading Color": Invalid post type acf-field
+[WARNING] Failed to import "Loading Color Opacity": Invalid post type acf-field
+[WARNING] Failed to import "Hide Page titles": Invalid post type acf-field
+[WARNING] Failed to import "Google Maps API key": Invalid post type acf-field
+[WARNING] Failed to import "landing link": Invalid post type acf-field
+[WARNING] Failed to import "Disable sidebar in shop pages": Invalid post type acf-field
+[WARNING] Failed to import "Related products count": Invalid post type acf-field
+[WARNING] Failed to import "Project Page": Invalid post type acf-field
+[WARNING] Failed to import "Slider Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Portfolio Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Branding": Invalid post type acf-field-group
+[WARNING] Failed to import "Footer Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Gallery Post": Invalid post type acf-field-group
+[WARNING] Failed to import "General Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Header": Invalid post type acf-field-group
+[WARNING] Failed to import "Page Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Quote Post": Invalid post type acf-field-group
+[WARNING] Failed to import "Video Post": Invalid post type acf-field-group
+[WARNING] Failed to import "Project": Invalid post type acf-field-group
+[WARNING] Failed to import "Blog Page Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Post Media Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Post Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Project Landing Link": Invalid post type acf-field-group
+[WARNING] Failed to import "Enable Onepage": Invalid post type acf-field
+[WARNING] Failed to import "Logo Mobile": Invalid post type acf-field
+[WARNING] Failed to import "Slider Orientation Vertical": Invalid post type acf-field
+[WARNING] Failed to import "Image Preload": Invalid post type acf-field
+[WARNING] Failed to import "Image Preload": Invalid post type acf-field
+[WARNING] Failed to import "Shop": Invalid post type acf-field-group
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import product_cat Music
+[WARNING] Failed to import product_cat Posters
+[WARNING] Failed to import product_cat Singles
+[WARNING] Failed to import product_cat T-shirts
+[WARNING] Failed to import product_cat Albums
+[WARNING] Failed to import "Slider Options": Invalid post type acf-field
+[WARNING] Failed to import "Sliider Display": Invalid post type acf-field
+[WARNING] Failed to import "Autoslide": Invalid post type acf-field
+[WARNING] Failed to import "Autoslide Timer": Invalid post type acf-field
+[WARNING] Failed to import "Slider Animation": Invalid post type acf-field
+[WARNING] Failed to import "Enable Thumbnails": Invalid post type acf-field
+[WARNING] Failed to import "Slider Gallery": Invalid post type acf-field
+[WARNING] Failed to import "Slider": Invalid post type acf-field
+[WARNING] Failed to import "Type": Invalid post type acf-field
+[WARNING] Failed to import "Image": Invalid post type acf-field
+[WARNING] Failed to import "Text": Invalid post type acf-field
+[WARNING] Failed to import "Text Position": Invalid post type acf-field
+[WARNING] Failed to import "Button Text": Invalid post type acf-field
+[WARNING] Failed to import "Button Link": Invalid post type acf-field
+[WARNING] Failed to import "Video url": Invalid post type acf-field
+[WARNING] Failed to import "Video Thumb": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Color": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Opacity": Invalid post type acf-field
+[WARNING] Failed to import "Post per page": Invalid post type acf-field
+[WARNING] Failed to import "Portfolio Categories": Invalid post type acf-field
+[WARNING] Failed to import "Columns On lg": Invalid post type acf-field
+[WARNING] Failed to import "Item Offset": Invalid post type acf-field
+[WARNING] Failed to import "Overlay": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Color": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Opacity": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Offset": Invalid post type acf-field
+[WARNING] Failed to import "Text Aligment": Invalid post type acf-field
+[WARNING] Failed to import "Title Color": Invalid post type acf-field
+[WARNING] Failed to import "Category Color": Invalid post type acf-field
+[WARNING] Failed to import "Text Decoration": Invalid post type acf-field
+[WARNING] Failed to import "Text Overlay Offset": Invalid post type acf-field
+[WARNING] Failed to import "Filter Aligment": Invalid post type acf-field
+[WARNING] Failed to import "Brand Color": Invalid post type acf-field
+[WARNING] Failed to import "Web Site Font": Invalid post type acf-field
+[WARNING] Failed to import "Headings Color": Invalid post type acf-field
+[WARNING] Failed to import "Heading Fontweight": Invalid post type acf-field
+[WARNING] Failed to import "Text And Paragraphs Color": Invalid post type acf-field
+[WARNING] Failed to import "Text And Paragraphs Fontsize": Invalid post type acf-field
+[WARNING] Failed to import "Text And Paragraphs Fontweight": Invalid post type acf-field
+[WARNING] Failed to import "Footer Background Color": Invalid post type acf-field
+[WARNING] Failed to import "Footer Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Gallery": Invalid post type acf-field
+[WARNING] Failed to import "Main Options": Invalid post type acf-field
+[WARNING] Failed to import "Disable Blog Social Shares": Invalid post type acf-field
+[WARNING] Failed to import "Disable Project Social Shares": Invalid post type acf-field
+[WARNING] Failed to import "Share Posts": Invalid post type acf-field
+[WARNING] Failed to import "404 Page": Invalid post type acf-field
+[WARNING] Failed to import "404 Title": Invalid post type acf-field
+[WARNING] Failed to import "404 Oops": Invalid post type acf-field
+[WARNING] Failed to import "404 Text": Invalid post type acf-field
+[WARNING] Failed to import "Back To Home": Invalid post type acf-field
+[WARNING] Failed to import "Custom Code": Invalid post type acf-field
+[WARNING] Failed to import "Custom Css": Invalid post type acf-field
+[WARNING] Failed to import "Custom Js": Invalid post type acf-field
+[WARNING] Failed to import "Header": Invalid post type acf-field
+[WARNING] Failed to import "Header Type": Invalid post type acf-field
+[WARNING] Failed to import "Header Background Color": Invalid post type acf-field
+[WARNING] Failed to import "Menu Sub Item Background": Invalid post type acf-field
+[WARNING] Failed to import "Menu Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Menu Sub item Border Color": Invalid post type acf-field
+[WARNING] Failed to import "Logo": Invalid post type acf-field
+[WARNING] Failed to import "Logo Type": Invalid post type acf-field
+[WARNING] Failed to import "Logo": Invalid post type acf-field
+[WARNING] Failed to import "Text Logo": Invalid post type acf-field
+[WARNING] Failed to import "Logo Font": Invalid post type acf-field
+[WARNING] Failed to import "Logo Color": Invalid post type acf-field
+[WARNING] Failed to import "Text Font Size": Invalid post type acf-field
+[WARNING] Failed to import "Social Medias": Invalid post type acf-field
+[WARNING] Failed to import "Social Networks": Invalid post type acf-field
+[WARNING] Failed to import "Network": Invalid post type acf-field
+[WARNING] Failed to import "Url": Invalid post type acf-field
+[WARNING] Failed to import "Quote": Invalid post type acf-field
+[WARNING] Failed to import "Quote Author": Invalid post type acf-field
+[WARNING] Failed to import "Embed": Invalid post type acf-field
+[WARNING] Failed to import "Options": Invalid post type acf-field
+[WARNING] Failed to import "Project Type": Invalid post type acf-field
+[WARNING] Failed to import "Project Content": Invalid post type acf-field
+[WARNING] Failed to import "Gallery": Invalid post type acf-field
+[WARNING] Failed to import "Video": Invalid post type acf-field
+[WARNING] Failed to import "Project Brief": Invalid post type acf-field
+[WARNING] Failed to import "Brief Title": Invalid post type acf-field
+[WARNING] Failed to import "Brief Items": Invalid post type acf-field
+[WARNING] Failed to import "Image": Invalid post type acf-field
+[WARNING] Failed to import "Item Size": Invalid post type acf-field
+[WARNING] Failed to import "Item Title": Invalid post type acf-field
+[WARNING] Failed to import "Item Description": Invalid post type acf-field
+[WARNING] Failed to import "Display Page Title": Invalid post type acf-field
+[WARNING] Failed to import "Filter": Invalid post type acf-field
+[WARNING] Failed to import "Border Offset": Invalid post type acf-field
+[WARNING] Failed to import "Content Aligment": Invalid post type acf-field
+[WARNING] Failed to import "Slider Height": Invalid post type acf-field
+[WARNING] Failed to import "Transparent Header And Footer": Invalid post type acf-field
+[WARNING] Failed to import "Display Border": Invalid post type acf-field
+[WARNING] Failed to import "Border Color": Invalid post type acf-field
+[WARNING] Failed to import "Page Layout": Invalid post type acf-field
+[WARNING] Failed to import "Enable Sidebar": Invalid post type acf-field
+[WARNING] Failed to import "Sidebar position": Invalid post type acf-field
+[WARNING] Failed to import "Hide Page Title": Invalid post type acf-field
+[WARNING] Failed to import "Width": Invalid post type acf-field
+[WARNING] Failed to import "Height": Invalid post type acf-field
+[WARNING] Failed to import "Max Width": Invalid post type acf-field
+[WARNING] Failed to import "Arrow Style": Invalid post type acf-field
+[WARNING] Failed to import "Arrow Position": Invalid post type acf-field
+[WARNING] Failed to import "Custom Css": Invalid post type acf-field
+[WARNING] Failed to import "Overlay Active": Invalid post type acf-field
+[WARNING] Failed to import "Full Width": Invalid post type acf-field
+[WARNING] Failed to import "Disable Header Divider": Invalid post type acf-field
+[WARNING] Failed to import "Disable Footer": Invalid post type acf-field
+[WARNING] Failed to import "Footer Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Header Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Full Width": Invalid post type acf-field
+[WARNING] Failed to import "Footer Sidebar1 Columns": Invalid post type acf-field
+[WARNING] Failed to import "Footer Sidebar2 Columns": Invalid post type acf-field
+[WARNING] Failed to import "Footer Sidebar3 Columns": Invalid post type acf-field
+[WARNING] Failed to import "Footer Sidebar4 Columns": Invalid post type acf-field
+[WARNING] Failed to import "Footer Sidebar": Invalid post type acf-field
+[WARNING] Failed to import "Gap Between Header and Content": Invalid post type acf-field
+[WARNING] Failed to import "Logo": Invalid post type acf-field
+[WARNING] Failed to import "Gap Between Header and Content": Invalid post type acf-field
+[WARNING] Failed to import "Disable Header Divider": Invalid post type acf-field
+[WARNING] Failed to import "Background Image": Invalid post type acf-field
+[WARNING] Failed to import "Enable default container (1200px)": Invalid post type acf-field
+[WARNING] Failed to import "Project Options": Invalid post type acf-field
+[WARNING] Failed to import "Gallery Padding": Invalid post type acf-field
+[WARNING] Failed to import "Gallery Padding": Invalid post type acf-field
+[WARNING] Failed to import "Transparent Header": Invalid post type acf-field
+[WARNING] Failed to import "Logo": Invalid post type acf-field
+[WARNING] Failed to import "Header Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Disable Header Divider": Invalid post type acf-field
+[WARNING] Failed to import "Container": Invalid post type acf-field
+[WARNING] Failed to import "Item Hover Effect": Invalid post type acf-field
+[WARNING] Failed to import "Data Options": Invalid post type acf-field
+[WARNING] Failed to import "Design Options": Invalid post type acf-field
+[WARNING] Failed to import "Page Options": Invalid post type acf-field
+[WARNING] Failed to import "Page Sub Header": Invalid post type acf-field
+[WARNING] Failed to import "Sub Header Background Color": Invalid post type acf-field
+[WARNING] Failed to import "Sub Header Background Image": Invalid post type acf-field
+[WARNING] Failed to import "Sub Header Content": Invalid post type acf-field
+[WARNING] Failed to import "Enable Frame": Invalid post type acf-field
+[WARNING] Failed to import "Frame Width": Invalid post type acf-field
+[WARNING] Failed to import "Frame Color": Invalid post type acf-field
+[WARNING] Failed to import "Enable Frame": Invalid post type acf-field
+[WARNING] Failed to import "Frame Width": Invalid post type acf-field
+[WARNING] Failed to import "Frame Color": Invalid post type acf-field
+[WARNING] Failed to import "Page Header": Invalid post type acf-field
+[WARNING] Failed to import "Page Footer": Invalid post type acf-field
+[WARNING] Failed to import "Header Divider Color": Invalid post type acf-field
+[WARNING] Failed to import "Style": Invalid post type acf-field
+[WARNING] Failed to import "Menu Hover Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Menu Sub Item Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Menu Sub Item Hover Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Menu v5 backdrop color": Invalid post type acf-field
+[WARNING] Failed to import "Menu v5 icon color": Invalid post type acf-field
+[WARNING] Failed to import "Menu v5 icon hover color": Invalid post type acf-field
+[WARNING] Failed to import "Hide Social Networks": Invalid post type acf-field
+[WARNING] Failed to import "Social Icons Color": Invalid post type acf-field
+[WARNING] Failed to import "Social Border Icons Color": Invalid post type acf-field
+[WARNING] Failed to import "Social Hover Icons Color": Invalid post type acf-field
+[WARNING] Failed to import "Social Hover Border Icons Color": Invalid post type acf-field
+[WARNING] Failed to import "Stoned Headings Color": Invalid post type acf-field
+[WARNING] Failed to import "Stoned Heading Fontsize": Invalid post type acf-field
+[WARNING] Failed to import "Stoned Heading Fontweight": Invalid post type acf-field
+[WARNING] Failed to import "Disable Stoned Headings Bottom Line": Invalid post type acf-field
+[WARNING] Failed to import "Filter Background Color": Invalid post type acf-field
+[WARNING] Failed to import "Filter Text Color": Invalid post type acf-field
+[WARNING] Failed to import "Text Decoration Color": Invalid post type acf-field
+[WARNING] Failed to import "Columns On md": Invalid post type acf-field
+[WARNING] Failed to import "Columns On sm": Invalid post type acf-field
+[WARNING] Failed to import "Share Text": Invalid post type acf-field
+[WARNING] Failed to import "Square Display": Invalid post type acf-field
+[WARNING] Failed to import "Loading Image1": Invalid post type acf-field
+[WARNING] Failed to import "Loading Image2": Invalid post type acf-field
+[WARNING] Failed to import "Loading Color": Invalid post type acf-field
+[WARNING] Failed to import "Loading Color Opacity": Invalid post type acf-field
+[WARNING] Failed to import "Hide Page titles": Invalid post type acf-field
+[WARNING] Failed to import "Google Maps API key": Invalid post type acf-field
+[WARNING] Failed to import "landing link": Invalid post type acf-field
+[WARNING] Failed to import "Disable sidebar in shop pages": Invalid post type acf-field
+[WARNING] Failed to import "Related products count": Invalid post type acf-field
+[WARNING] Failed to import "Project Page": Invalid post type acf-field
+[WARNING] Failed to import "Slider Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Portfolio Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Branding": Invalid post type acf-field-group
+[WARNING] Failed to import "Footer Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Gallery Post": Invalid post type acf-field-group
+[WARNING] Failed to import "General Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Header": Invalid post type acf-field-group
+[WARNING] Failed to import "Page Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Quote Post": Invalid post type acf-field-group
+[WARNING] Failed to import "Video Post": Invalid post type acf-field-group
+[WARNING] Failed to import "Project": Invalid post type acf-field-group
+[WARNING] Failed to import "Blog Page Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Post Media Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Post Options": Invalid post type acf-field-group
+[WARNING] Failed to import "Project Landing Link": Invalid post type acf-field-group
+[WARNING] Failed to import "Enable Onepage": Invalid post type acf-field
+[WARNING] Failed to import "Logo Mobile": Invalid post type acf-field
+[WARNING] Failed to import "Slider Orientation Vertical": Invalid post type acf-field
+[WARNING] Failed to import "Image Preload": Invalid post type acf-field
+[WARNING] Failed to import "Image Preload": Invalid post type acf-field
+[WARNING] Failed to import "Shop": Invalid post type acf-field-group
+[WARNING] Failed to import "Woo Logo": Invalid post type product
+[WARNING] Failed to import "Premium Quality": Invalid post type product
+[WARNING] Failed to import "Ship Your Idea": Invalid post type product
+[WARNING] Failed to import "Cup": Invalid post type product
+[WARNING] Failed to import "Ice Cream Spoon": Invalid post type product
+[WARNING] Failed to import "Floating shelf": Invalid post type product
+[WARNING] Failed to import "Z Collective Dome": Invalid post type product
+[WARNING] Failed to import "Monument Alt": Invalid post type product
+[WARNING] Failed to import "Issay landscape Alt": Invalid post type product
+
+
+---ocdi/after_import---
+
